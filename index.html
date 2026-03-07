@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Germán Racing Moto | Servicio Oficial Yamaha Granada</title>
+
+<meta name="description" content="Taller de motos en Granada. Servicio técnico oficial Yamaha, reparación, mantenimiento y venta de motos.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#0a0a0a;
+color:white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:black;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+header h1{
+color:#ff0000;
+font-size:24px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#ff0000;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+background:url("https://images.unsplash.com/photo-1558980664-10ea8a6dfb6f") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h2{
+font-size:50px;
+background:rgba(0,0,0,0.6);
+padding:30px;
+border-radius:10px;
+}
+
+/* SECCIONES */
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:36px;
+margin-bottom:40px;
+}
+
+/* SERVICIOS */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1c1c1c;
+padding:30px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* GALERIA */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+}
+
+/* OPINIONES */
+
+.review{
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+font-size:18px;
+}
+
+/* CONTACTO */
+
+.contact p{
+margin:10px;
+font-size:18px;
+}
+
+.button{
+display:inline-block;
+background:#ff0000;
+padding:15px 25px;
+border-radius:8px;
+margin-top:20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* MAPA */
+
+.map{
+margin-top:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:40px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+text-align:center;
+padding:30px;
+margin-top:60px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>GERMÁN RACING MOTO</h1>
+
+<nav>
+
+<a href="#servicios">Servicios</a>
+<a href="#taller">Taller</a>
+<a href="#opiniones">Opiniones</a>
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Servicio Técnico Oficial Yamaha en Granada</h2>
+
+</section>
+
+<section class="section" id="servicios">
+
+<h2>Nuestros Servicios</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Servicio Oficial Yamaha</h3>
+<p>Mantenimiento especializado en motocicletas Yamaha.</p>
+</div>
+
+<div class="card">
+<h3>Reparación de motos</h3>
+<p>Diagnóstico profesional y reparación multimarca.</p>
+</div>
+
+<div class="card">
+<h3>Venta de motos</h3>
+<p>Motos nuevas y de segunda mano revisadas.</p>
+</div>
+
+<div class="card">
+<h3>Recambios</h3>
+<p>Repuestos originales y mantenimiento completo.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="taller">
+
+<h2>Nuestro Taller</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+
+<img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39">
+
+<img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65">
+
+</div>
+
+</section>
+
+<section class="section" id="opiniones">
+
+<h2>Opiniones de Clientes</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+“Excelente taller. Muy profesionales y rápidos con las reparaciones.”
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+“Siempre llevo mi Yamaha aquí. Trato cercano y mecánicos muy buenos.”
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+“El mejor taller de motos de Granada sin duda.”
+</div>
+
+</section>
+
+<section class="section contact" id="contacto">
+
+<h2>Contacto</h2>
+
+<p>📍 Calle Ruiseñor 6, Granada</p>
+
+<p>📞 958201268</p>
+
+<p>📱 616617589</p>
+
+<p>📧 german.yamahamotos@gmail.com</p>
+
+<a class="button" href="tel:958201268">Llamar ahora</a>
+
+<div class="map">
+
+<iframe
+src="https://maps.google.com/maps?q=calle%20ruiseñor%206%20granada&t=&z=15&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="400"
+style="border:0;border-radius:10px;">
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Germán Racing Moto | Taller de motos en Granada</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/34616617589">WhatsApp</a>
+
+</body>
+</html>
