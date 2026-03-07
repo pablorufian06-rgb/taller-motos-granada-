@@ -70,11 +70,21 @@ text-align:center;
 padding:20px;
 }
 
-.hero h2{
-font-size:50px;
-background:rgba(0,0,0,0.6);
-padding:30px;
-border-radius:10px;
+.hero-title{
+font-size:55px;
+background:linear-gradient(90deg,#ff0000,#00a2ff,#ffffff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+font-weight:800;
+text-shadow:0 0 15px rgba(255,0,0,0.5);
+}
+
+.hero-title span{
+display:block;
+font-size:28px;
+color:white;
+margin-top:10px;
+text-shadow:0 0 10px rgba(0,162,255,0.7);
 }
 
 /* SECCIONES */
@@ -119,6 +129,8 @@ gap:20px;
 
 .gallery img{
 width:100%;
+height:300px;
+object-fit:cover;
 border-radius:12px;
 }
 
@@ -191,6 +203,12 @@ padding:30px;
 margin-top:60px;
 }
 
+.espacio{
+height:60px;
+}
+
+</style>
+
 </style>
 
 </head>
@@ -214,7 +232,10 @@ margin-top:60px;
 
 <section class="hero">
 
-<h2>Servicio Técnico Oficial Yamaha en Granada</h2>
+<h2 class="hero-title">
+🏍️ Servicio Técnico Oficial Yamaha<br>
+<span>Especialistas en motos en Granada</span>
+</h2>
 
 </section>
 
@@ -300,6 +321,8 @@ margin-top:60px;
 <p>📧 german.yamahamotos@gmail.com</p>
 
 <a class="button" href="tel:958201268">Llamar ahora</a>
+
+<div class="espacio"></div>
 
 <div class="map">
 
