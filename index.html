@@ -21,7 +21,7 @@ font-family:Poppins;
 }
 
 body{
-background:#0a0a0a;
+background:linear-gradient(180deg,#0a0a0a,#111,#0a0a0a);
 color:white;
 }
 
@@ -39,8 +39,12 @@ z-index:10;
 }
 
 header h1{
-color:#ff0000;
-font-size:24px;
+font-size:32px;
+background:linear-gradient(90deg,#ff0000,#00a2ff,#ffffff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+font-weight:bold;
+letter-spacing:2px;
 }
 
 nav a{
@@ -136,7 +140,19 @@ font-size:18px;
 
 .button{
 display:inline-block;
-background:#ff0000;
+background:linear-gradient(90deg,#ff0000,#ff4d4d);
+padding:15px 25px;
+border-radius:10px;
+margin-top:20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.button:hover{
+transform:scale(1.1);
+}
 padding:15px 25px;
 border-radius:8px;
 margin-top:20px;
@@ -238,7 +254,9 @@ margin-top:60px;
 
 <div class="gallery">
 
-<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+<img src="taller1.jpg">
+<img src="taller2.jpg">
+<img src="taller3.jpg">
 
 <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39">
 
